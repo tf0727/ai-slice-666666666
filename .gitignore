@@ -1,0 +1,105 @@
+# ══════════════════════════════════════════
+#  Python
+# ══════════════════════════════════════════
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# ══════════════════════════════════════════
+#  Environment & Secrets
+# ══════════════════════════════════════════
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ══════════════════════════════════════════
+#  Node.js / Frontend
+# ══════════════════════════════════════════
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# ══════════════════════════════════════════
+#  Local Storage & Temp Files
+# ══════════════════════════════════════════
+storage/
+/tmp/
+*.tmp
+*.bak
+*.swp
+
+# Local binary runtimes (download/install locally)
+tools/cuda/
+tools/ffmpeg/bin/*.exe
+
+# ══════════════════════════════════════════
+#  FFmpeg.wasm Core (large binary, download at build time)
+# ══════════════════════════════════════════
+frontend/public/ffmpeg/*.wasm
+frontend/public/ffmpeg/*.js
+
+# ══════════════════════════════════════════
+#  IDE & OS
+# ══════════════════════════════════════════
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ══════════════════════════════════════════
+#  Database & Alembic
+# ══════════════════════════════════════════
+*.db
+*.sqlite3
+
+# ══════════════════════════════════════════
+#  Logs
+# ══════════════════════════════════════════
+*.log
+logs/
+.run/
+
+# ══════════════════════════════════════════
+#  Docker
+# ══════════════════════════════════════════
+docker-compose.override.yml
+
+# ══════════════════════════════════════════
+#  AI / ML Models (too large for git)
+# ══════════════════════════════════════════
+*.bin
+*.pt
+*.onnx
+
+# Local-only artifacts
+.env.*
+!.env.example
+.uv-cache/
+tools/
+.agent/
+.agents/
+.codex/
+*.sql
+*.dump
+*.zip
+*.mp4
+*.mp3
+*.wav
+*.mov
+*.mkv
+backend/tmp/
